@@ -24,7 +24,7 @@ public class WebElemetLocatorURl {
         //5- Enter username
         driver.findElement(By.id("username")).sendKeys("tomsmith");
         driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
-        //driver.findElement(By.id("login")).click();
+        driver.findElement(By.className("radius")).click();
         driver.findElement(By.linkText("Elemental Selenium")).click();
 
 
